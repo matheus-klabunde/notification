@@ -1,5 +1,12 @@
 package com.mtk.notification.service.impl;
 
-public class SmsNotificationService
+import com.mtk.notification.service.NotificationService;
+
+public class SmsNotificationService implements NotificationService
 {
+	@Override
+	public void send(String message, String recipient)
+	{
+		// lógica para envio de mensagem via sms
+	}
 }
